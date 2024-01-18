@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    flex-direction: column;
+}
+#home {
+    height: 450px;
+    padding: 3px 65px;
+}
+#home::before{
+    height: 680px;
+}
+#home h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+#home p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 12px;
+
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#services{
+    flex-direction: column;
+}
+
+#services .box{
+
+}
+
+.h-primary{
+    font-size: 26px;
+}
